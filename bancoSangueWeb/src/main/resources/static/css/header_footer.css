@@ -1,0 +1,42 @@
+header {
+    background-color: aqua;
+    margin-top: 0;
+    margin-bottom: 3%;
+    max-height: 15%;
+}
+
+#usuarioLogado {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+#usuarioLogado p {
+    margin: 0;
+    padding: 0;
+}
+
+#usuarioLogado h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    margin-right: 0;
+}
+
+#titulo {
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+#footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: beige;
+}
+
+.btn {
+    margin-top: 1%;
+}
