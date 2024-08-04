@@ -17,7 +17,10 @@ $(document).ready(function() {
                 break;
             default:
                 bRetorno = validaCPF();
-                if (bRetorno) localStorage.setItem('nomeUsuario', $('#nome').val().trim());
+                if (bRetorno) {
+                    localStorage.setItem('nomeUsuario', $('#nome').val().trim());
+                    localStorage.setItem('cpfUsuario', $('#cpf').val().trim());
+                }
                 break;
         }
         return bRetorno;

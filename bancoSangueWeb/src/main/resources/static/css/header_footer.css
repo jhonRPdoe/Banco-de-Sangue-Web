@@ -8,14 +8,15 @@ body {
 }
 
 header {
-    background-color: rgb(92, 172, 218);
+    background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F);
     margin-top: 0;
     margin-bottom: 3%;
     max-height: 15%;
+    color: white;
 }
 
 .nav-link {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -29,9 +30,10 @@ header {
     border: 1px solid black;
 }
 
-#usuarioLogado p {
+#usuarioLogado p, #usuarioLogado h6 {
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 #usuarioLogado h6 {
@@ -48,3 +50,21 @@ header .container {
     margin-left: 3%;
 }
 
+@media (max-width: 1000px) {
+
+    header {
+        padding-bottom: 160px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        font-size: small;
+        padding-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+}
